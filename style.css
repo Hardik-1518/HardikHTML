@@ -1,32 +1,19 @@
-h1 {
-    color: #ffa511;
+*{
+    font-family: 'Courier New';
+}
+h1,
+h3{
+    color: #b92b27;
+}
+
+#login{
     background-color: white;
-    text-align: center;
-    text-decoration: teal double underline;
-    font-family: league spartan, sans-serif;
-    font-size: 55px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    line-height: 1.5;
-    text-transform: uppercase;
 }
-h2{
-    color: #ffa511;
-    text-decoration: wavy underline;
-    font-weight: 800;
-    letter-spacing:normal;
-    font-family: sans-serif;
-}
-p{
+#signup{
+    background-color:#b92b27;
     color: white;
-    background-color: black;
-    font-weight: 400;
-    line-height: 1.5;
-    font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
 }
-button {
-    color: white;
-    background-color: blue;
-    text-decoration: line-through;
+.upvote{
+    background-color: green;
+    color: aliceblue;
 }
