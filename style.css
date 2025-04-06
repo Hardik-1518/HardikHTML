@@ -1,3 +1,6 @@
+h3{
+    background-color: antiquewhite !important;
+}
 *{
     font-family: 'Courier New';
 }
@@ -42,4 +45,38 @@ input[type="password"]{
 }
 input[type]{
     background-color: ghostwhite;
+}
+button:hover{
+    background-color: black;
+    color: white;
+} 
+button:active{
+    background-color: hotpink;
+    color: black;
+    
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+#myId p{
+    color: green;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(2){
+    background-color: blanchedalmond;
+}
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    color: blue;
+    ;
+}
+p::selection{
+    background-color: rgb(192, 192, 58);
+    
 }
