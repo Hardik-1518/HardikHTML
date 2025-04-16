@@ -1,12 +1,9 @@
+
 div{
-    height: 100px;
-    width: 100px;
-    background-color: #4dff00ff;
-    margin: 0 auto;
-    margin-top: 10px;
-    transition: margin-top 2s ease 0.2s;
-}
-div:hover{
-    margin-top: 400px;
-    background-color: pink;
+    height: 200px;
+    width: 400px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("RS.png");
+    background-size: cover;
 }
