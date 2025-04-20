@@ -32,3 +32,10 @@ h1{
     }
     
 }
+@media(orientation: landscape) {
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+    
+}
